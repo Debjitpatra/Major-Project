@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .hover-out-only {
+        transition: background-color 16s ease-out;
+    }
+
+    .hover-out-only:hover {
+        transition: none;
+    }
+}
